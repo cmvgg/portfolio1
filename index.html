@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="js/scripts.js"></script>
+    <title>César Manuel Varela</title>
+</head>
+<body>
+    <div class="idioma">
+        <button class="idioma1">Castellano</button>>
+    </div>
+    <div class="monitor" id="monitor">
+        <div id="sidebar" class="sidebar">
+            <a href="#" class="boton-cerrar" onclick="ocultar()">&times;</a>
+            
+        <ul id="menu">
+            <p class="foto1"><img class="foto" src="img/sidebar/foto.png" loading:lazy></p>
+            <p class="nombre1">César Manuel Varela</p>
+            <li><a class="home" href="#home">HOME</a></li>
+            <li><a href="#about1">ABOUT ME</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#softskills">SOFT SKILLS</a></li>
+            <li><a href="#project">PROJECT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <a class="linkedins" href="http://www.linkedin.com/in/cmvgg" target="_blank" rel=" noopener noreferrer"><img class="linkeds" src="img/sidebar/linkedin.png" loading:"lazy"></a>
+        
+        </div>
+    
+    <div id="menubutton">
+        <a id="abrir" class="abrir-cerrar" href="javascript:void(0)"  onclick="mostrar()"><img class="menu" src="img/sidebar/menu.png" loading:lazy></a>
+        <a id="cerrar" class="abrir-cerrar" href="#" onclick="ocultar()"><img class="menu" src="img/sidebar/menu.png" loading:lazy></a>
+    </div>
+    </div>
+    <div class="mobile" id="mobile">
+        <a id="home">
+            <p class="saludo">HI<BR>I´M<br> CÉSAR</p>
+            <p CLASS="developer">&lt;FRONT END DEVELOPER WEB&gt;</p>
+        </a>
+        <a id="about1">
+            <p class="about">ABOUT ME:</p>
+            <p class="aboutme">I´m a web developer (specialized in front-end). 
+                    I´m begining my travel in this world where i try to upgrade my skills daily. I try yto learn from everyone who likes any segment of this world,
+                    from a graphic designer to a back-end developer, because i think everyone has something to bring me.
+                    I am calm and rational person, tenacious and almost obsessed with deadlines, i have a great capacity for work team and leadership.
+                    Nice to meet you and looking forward to talking with you.</p>
+        </a>
+        <a id="skills">
+            <p class="skills">SKILLS:</p>
+        
+            <div class="cubos" id="cubos">  
+            
+                            <div class="caja1">
+                                <div class="pol pol1"><img src="img/cubos/HTML5.png" loading:lazy alt="html5"></div>
+                                <div class="pol pol2"><img src="img/cubos/css3.png" loading:lazy alt="css3"></div>
+                                <div class="pol pol3"><img src="img/cubos/js.png" loading:lazy alt="JS"></div>
+                                <div class="pol pol4"><img src="img/cubos/python.png" loading:lazy alt="python"></div>
+                                <div class="pol pol8"><img src="img/cubos/angular.png" loading:lazy alt="Angular"></div>
+                                <div class="pol pol9"><img src="img/cubos/jquery.png" loading:lazy alt="jquery"></div>
+                            </div>
+                     
+                            <div class="caja2">
+                                <div class="pol pol5"><img src="img/cubos/blender.png" loading:lazy alt="blender"></div>
+                                <div class="pol pol7"><img src="img/cubos/inkscape.png" loading:lazy alt="inkscape"></div>
+                                <div class="pol pol10"><img src="img/cubos/node.png" loading:lazy alt="node.js"></div>
+                                <div class="pol pol11"><img src="img/cubos/mysql.png" loading:lazy alt="mysql"></div>
+                                <div class="pol pol12"><img src="img/cubos/git.png" loading:lazy alt="Git"></div>
+                                <div class="pol pol13"><img src="img/cubos/github.png" loading:lazy alt="Github"></div>
+                            </div>
+                        </div>    
+        </a>
+
+            <a id="softskills">
+                <p class="softskills">SOFT SKILLS:</p>
+            </a>
+             
+    
+            <a id="project">
+                
+                <p class="projects">PROJECTS:</p>
+                
+                <div class="project1">
+                    <p id="moned" class="moned">
+                        
+                        <a href="https://cmvgg.github.io/currency/" class="mon" target="_blank">
+                            <img class="moneda" src="img/projects/moneda.png" loading:lazy>
+                        </a>
+                        
+                        <a href="https://github.com/cmvgg/currency" class="gith" target="_blank">
+                            <img class="githu" src="img/projects/github2.png" loading:lazy>
+                        </a>
+                        
+                        
+                        
+                    </p>
+                </div>
+            </a> 
+           
+         <a id="contact">
+            <p class="contact">CONTACT:</p>
+               <form class="formular" method='POST' action='/php/form.php'>
+                <div class="formu1">
+                    <label class="nombre" for="nombre">Name</label>
+                    <input type="text" class="form-control" name='nombre' id="nombre" placeholder="name...">
+                </div>
+                <div class="formu">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name='email' id="email" placeholder="email...">
+                </div>
+                <div class="formu">
+                    <label for="exampleTextarea">message</label>
+                    <textarea class="form-control" name='mensaje' id="mensaje" rows="3"></textarea>
+                </div>
+                <div class="formu">
+                    <input type="checkbox" required> Acepto la política de privacidad.
+                </div>
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
+        </a>
+            
+       
+    </div>
+    
+    
+    
+
+
+    <a class="linked" id="linkedin" href="http://www.linkedin.com/in/cmvgg" target="_blank" rel=" noopener noreferrer"><img class="linked" src="img/sidebar/linkedin.png" loading:lazy alt="linkedin Symbol"></a>
+</body>
+</html>
